@@ -58,7 +58,7 @@ public class CardTrick {
         // add one luckcard hard code 2,clubs
         Card luckyCard = new Card();
         luckyCard.setValue(2);
-        luckyCard.setSuit("Clubs")
+        luckyCard.setSuit("Clubs");
         boolean result = false;
         for (Card card:magicHand) {
             if (luckyCard.equals(card)) {
